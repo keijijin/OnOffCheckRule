@@ -1,0 +1,56 @@
+POST http://localhost:8080/order01
+Accept: application/json
+Content-Type: application/json
+
+{
+  "orders": [
+    {
+      "brave": true,
+      "name": "Keiji Jin",
+      "onOff": "X"
+    }
+  ]
+}
+###
+POST http://localhost:8080/order01
+Accept: application/json
+Content-Type: application/json
+
+{
+  "orders": [
+    {
+      "brave": false,
+      "name": "Keiji Jin",
+      "onOff": null
+    }
+  ]
+}
+
+###
+POST http://localhost:8080/order02
+Accept: application/json
+Content-Type: application/json
+
+{
+  "orders": [
+    {
+      "brave": true,
+      "name": "Keiji Jin",
+      "onOff": "X"
+    }
+  ]
+}
+###
+POST http://localhost:8080/order02
+Accept: application/json
+Content-Type: application/json
+
+{
+  "orders": [
+    {
+      "brave": false,
+      "name": "Keiji Jin",
+      "onOff": null
+    }
+  ]
+}
